@@ -37,7 +37,7 @@ h1 {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
-.site-wrapper {
+.wrapper {
   display: table;
   width: 100%;
   height: 100%;
@@ -51,12 +51,12 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  .site-wrapper {
+  .wrapper {
     box-shadow: inset 0 0 500px 100px rgba(0,0,0,.9);
   }
 }
 
-.site-wrapper-inner {
+.wrapper-inner {
   display: table-cell;
   vertical-align: middle;
 }
