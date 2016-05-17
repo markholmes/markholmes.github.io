@@ -1,0 +1,377 @@
+/* imports */
+/*
+
+  A modified version of Meyer's reset.css (by me, mark holmes)
+
+  http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+
+*/
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
+* {
+  box-sizing: border-box; }
+
+html, body, mark {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: transparent; }
+
+body {
+  line-height: 1; }
+
+mark {
+  display: block; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* variables */
+/* styles */
+html, body {
+  width: 100%;
+  font-family: "Sorts Mill Goudy", serif;
+  line-height: 1.4em;
+  color: #fff; }
+
+/* top navigation */
+body > mark:nth-child(1) {
+  width: 100%;
+  background: #55443D;
+  height: 40px; }
+
+body > mark:nth-child(1) > mark {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px; }
+  body > mark:nth-child(1) > mark:before, body > mark:nth-child(1) > mark:after {
+    content: " ";
+    display: table; }
+  body > mark:nth-child(1) > mark:after {
+    clear: both; }
+
+body > mark:nth-child(1) > mark > mark:nth-child(1) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 0 20px;
+  color: #fff;
+  cursor: pointer; }
+  body > mark:nth-child(1) > mark > mark:nth-child(1):last-child {
+    margin-right: 0; }
+  body > mark:nth-child(1) > mark > mark:nth-child(1):hover {
+    text-decoration: underline; }
+
+body > mark:nth-child(1) > mark > mark:nth-child(2) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-right: 0;
+  font-size: 1.2em;
+  display: inline-block;
+  text-align: right; }
+  body > mark:nth-child(1) > mark > mark:nth-child(2):last-child {
+    margin-right: 0; }
+
+body > mark:nth-child(1) > mark:nth-child(1) > mark:nth-child(2) > mark:nth-child(1) {
+  display: none; }
+
+body > mark:nth-child(1) > mark > mark:nth-child(2) > mark {
+  padding: 0 20px;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff; }
+  body > mark:nth-child(1) > mark > mark:nth-child(2) > mark:hover {
+    text-decoration: underline; }
+
+body > mark:nth-child(2) {
+  width: 100%; }
+
+/* hero */
+body > mark:nth-child(2) > mark:nth-child(1) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
+  background: url("../images/hero-background-mountains.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.4em;
+  text-shadow: -2px 4px 0 rgba(0, 0, 0, 0.3);
+  float: none; }
+  body > mark:nth-child(2) > mark:nth-child(1):last-child {
+    margin-right: 0; }
+
+body > mark:nth-child(2) > mark:nth-child(1) > mark {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  body > mark:nth-child(2) > mark:nth-child(1) > mark:before, body > mark:nth-child(2) > mark:nth-child(1) > mark:after {
+    content: " ";
+    display: table; }
+  body > mark:nth-child(2) > mark:nth-child(1) > mark:after {
+    clear: both; }
+
+body > mark:nth-child(2) > mark:nth-child(1) > mark > mark {
+  color: #fff;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  body > mark:nth-child(2) > mark:nth-child(1) > mark > mark:last-child {
+    margin-right: 0; }
+
+/* past work */
+body > mark:nth-child(2) > mark:nth-child(2) {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  margin-bottom: 2em; }
+  body > mark:nth-child(2) > mark:nth-child(2):before, body > mark:nth-child(2) > mark:nth-child(2):after {
+    content: " ";
+    display: table; }
+  body > mark:nth-child(2) > mark:nth-child(2):after {
+    clear: both; }
+
+body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(1) {
+  margin: 2em 0;
+  font-size: 1.5em;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
+  text-align: center;
+  float: none; }
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(1):last-child {
+    margin-right: 0; }
+
+body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(2) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em; }
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(2):last-child {
+    margin-right: 0; }
+
+body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(3) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em; }
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(3):last-child {
+    margin-right: 0; }
+
+body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(4) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em; }
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(4):last-child {
+    margin-right: 0; }
+
+body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(2) > mark {
+  display: inline-block;
+  background: url(../images/discounthockey.png);
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 300px;
+  font-size: 1.5em;
+  color: #fff;
+  text-shadow: 0 0 10px #000; }
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(2) > mark:hover {
+    text-decoration: underline; }
+
+body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(3) > mark {
+  display: inline-block;
+  background: url(../images/lasounddesign.png);
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 300px;
+  font-size: 1.5em;
+  color: #fff;
+  text-shadow: 0 0 10px #000; }
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(3) > mark:hover {
+    text-decoration: underline; }
+
+body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(4) > mark {
+  display: inline-block;
+  background: url(../images/olivverthekid.png);
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 300px;
+  font-size: 1.5em;
+  color: #fff;
+  text-shadow: 0 0 10px #000; }
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(4) > mark:hover {
+    text-decoration: underline; }
+
+/* skills */
+body > mark:nth-child(2) > mark:nth-child(3) {
+  width: 100%;
+  background: #dfdfdf; }
+
+body > mark:nth-child(2) > mark:nth-child(3) > mark {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  body > mark:nth-child(2) > mark:nth-child(3) > mark:before, body > mark:nth-child(2) > mark:nth-child(3) > mark:after {
+    content: " ";
+    display: table; }
+  body > mark:nth-child(2) > mark:nth-child(3) > mark:after {
+    clear: both; }
+
+body > mark:nth-child(2) > mark:nth-child(3) > mark:nth-child(1) > mark:nth-child(1) {
+  margin: 2em 0;
+  font-size: 1.5em;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
+  text-align: center;
+  float: none; }
+  body > mark:nth-child(2) > mark:nth-child(3) > mark:nth-child(1) > mark:nth-child(1):last-child {
+    margin-right: 0; }
+
+body > mark:nth-child(2) > mark:nth-child(3) > mark:nth-child(2) > mark:nth-child(1) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%;
+  text-align: center;
+  float: none;
+  margin-bottom: 2em;
+  line-height: 2em; }
+  body > mark:nth-child(2) > mark:nth-child(3) > mark:nth-child(2) > mark:nth-child(1):last-child {
+    margin-right: 0; }
+
+/* contact */
+body > mark:nth-child(2) > mark:nth-child(4) {
+  width: 100%;
+  background: #55443D; }
+
+body > mark:nth-child(2) > mark:nth-child(4) > mark {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  body > mark:nth-child(2) > mark:nth-child(4) > mark:before, body > mark:nth-child(2) > mark:nth-child(4) > mark:after {
+    content: " ";
+    display: table; }
+  body > mark:nth-child(2) > mark:nth-child(4) > mark:after {
+    clear: both; }
+
+body > mark:nth-child(2) > mark:nth-child(4) > mark:nth-child(1) > mark:nth-child(1) {
+  margin: 2em 0;
+  font-size: 1.5em;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
+  text-align: center;
+  float: none;
+  color: #fff; }
+  body > mark:nth-child(2) > mark:nth-child(4) > mark:nth-child(1) > mark:nth-child(1):last-child {
+    margin-right: 0; }
+
+body > mark:nth-child(2) > mark:nth-child(4) > mark:nth-child(2) > mark:nth-child(1) {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%;
+  text-align: center;
+  float: none;
+  margin-bottom: 2em;
+  line-height: 2em;
+  color: #fff; }
+  body > mark:nth-child(2) > mark:nth-child(4) > mark:nth-child(2) > mark:nth-child(1):last-child {
+    margin-right: 0; }
+
+/* footer */
+body > mark:nth-child(2) > mark:nth-child(5) {
+  text-align: center;
+  padding: 1em;
+  background: #dfdfdf; }
+
+/* media queries */
+@media screen and (min-width: 768px) {
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(2) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(2):last-child {
+      margin-right: 0; }
+
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(3) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(3):last-child {
+      margin-right: 0; }
+
+  body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(4) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-right: 0; }
+    body > mark:nth-child(2) > mark:nth-child(2) > mark:nth-child(4):last-child {
+      margin-right: 0; }
+
+  body > mark:nth-child(1) > mark:nth-child(1) > mark:nth-child(2) > mark:nth-child(1) {
+    display: inline-block; } }
+/* view source */
+body > mark:nth-child(3) {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 10px;
+  cursor: pointer; }
+  body > mark:nth-child(3).hover {
+    text-decoration: underline; }
+
+/*# sourceMappingURL=mark.css.map */

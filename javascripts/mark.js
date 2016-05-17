@@ -1,0 +1,3 @@
+console.log('hey there. sure, you can view my portfolio or my resume to find my past work, but that kind of stuff is mostly a formality. i\'m pretty good at a few things and know a decently fair amount about a lot of other things. primarily, i\'m good at responsive html and css, javascript (including both front- and back-end frameworks like angular, nodejs and express), and source control (using git, mostly). i like things that save me time (like grunt & scss). but most importantly, i think that i\'m a pretty easy guy to get along with. i love to joke and laugh, but I know when to get work done. are you hiring? get in touch with me!');
+console.log('');
+console.log('email: mark@markholmes.io  ||  twitter: @_markholmes  ||  <3');
